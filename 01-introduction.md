@@ -47,3 +47,25 @@ $q$ cycles en jours 18.
 - Vitess 7km/s 1 période ~ 100minutes. 15 orbites/jour, inclinaison 98° par rapport à l'équateurs (un peu incliné par rapport aux axes des pôle)
 
 - :turtle: Géostationnaire 24h - 36.000km (météo)
+
+
+## Mesures
+- RGB ou RGBI - 30cm/pix (Pléiades Néo) - 1km/px (MODIS)
+- infrared: VNIR very near, SWIR short wave, TIR thermal.
+- hyperspectral.
+
+Radar : le plus fiable 
+- voient à travers les nuages et la nuit.
+- dur à interprêter
+- très bruité
+- pas mal de range de résolutions
+
+#### Capteurs
+- Push broom.
+- parfois, capteur vidéo
+- RADAR: ondes radio émises (active). Mesure du temps de vol pour en déduire la profondeur.
+
+
+- Radars
+  -  :free: Sentinel-1
+  - :dollar: CosmoSkyMed, TerraSarX Iceye,ArrowSAR, Capella)
