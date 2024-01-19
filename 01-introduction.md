@@ -68,4 +68,10 @@ Radar : le plus fiable
 
 - Radars
   -  :free: Sentinel-1
-  - :dollar: CosmoSkyMed, TerraSarX Iceye,ArrowSAR, Capella)
+  - :dollar: CosmoSkyMed, TerraSarX Iceye,ArrowSAR, Capella.
+
+- Dépointage (potentielle influence sur la résolution).
+
+#### Mesure de l'élévation
+- Interférence radar
+- Stérévision visible
