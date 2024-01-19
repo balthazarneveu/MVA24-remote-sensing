@@ -23,3 +23,27 @@ Constellations radar
 - Cost/mission 1 satellite launch: 100/200MEuros
 - :free: free data from spatial agencies (:eu: Copernicus, :us: Landsat, ISRO :india:)
 - :recycle: "désorbiter" les satellites
+
+### Orbital mechatnics
+- Heart = mass point
+
+$F = G\frac{mM}{R²}$
+
+- Constant, Ellipse. Correct initial speed = orbite cercle
+- Orbite ~ 500 & 1000km
+- Précession: le champs n'est pas radial, l'orbite peut tourner -> synchronisation de l'orbite avec le soleil. Orbite héliosynchrone.
+- Optical: 10h du matin. SAR 6h du matin / 6h du soir. 
+
+Cycle
+$T \in [94 , 105] \text{min}$ 13.4 to 15.3 time / day
+
+$n*T = p * 24$
+
+
+Exemples: Landsat 1 : $p=13+\frac{17}{18}$ orbites par jour, $h=917km$ 
+$q$ cycles en jours 18.
+- :fr: Fauchée : :us: Swath size . Bande de sol 
+- VHR very high resolution - satellite agile pointe pour augmenter le champ de vue
+- Vitess 7km/s 1 période ~ 100minutes. 15 orbites/jour, inclinaison 98° par rapport à l'équateurs (un peu incliné par rapport aux axes des pôle)
+
+- :turtle: Géostationnaire 24h - 36.000km (météo)
