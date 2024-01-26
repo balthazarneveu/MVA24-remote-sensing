@@ -1,3 +1,9 @@
+# Remote sensing
+
+**Balthazar Neveu** 
+
+-----------
+
 # :teacher: Classes
 [Class website](https://mvaisat.wp.imt.fr/)
 
@@ -5,4 +11,5 @@
 - [2-Reconstruction](/02-regitstration.md)
 # :test_tube: Labs
 - [TP-01](/TP_01.ipynb): collection of satellite data
-- [TP-02](/TP_02.ipynb): 
+- [TP-02](/TP_02.ipynb): Geometric modeling of optical satellites
+
