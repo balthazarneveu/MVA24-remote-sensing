@@ -71,3 +71,6 @@ Fundamental matrix has a special form
 F = | 0 0 b |
     | c d e |
 ```
+
+#### Pointing error
+- error measurement of the angles (roll, yaw)
