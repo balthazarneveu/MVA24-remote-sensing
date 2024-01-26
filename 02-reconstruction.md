@@ -25,8 +25,9 @@
 ### Image formation model
 $L : R^{2} , R \rightarrow [-\pi, \pi] , [\frac{\pi}{2},\frac{\pi}{2}]$
 
-$(x, h) \rightarrow \lambda \theta$
-
+$(x, h) \rightarrow (\lambda, \theta)$
+$\lambda$ : longitude
+$\theta$ latitude.
 Complex projections :facepalm:
 
 :green_circle: For end user: **RPC model** : Rational polynomial camera. *Rational polynomial functions with degree 3*
@@ -42,3 +43,31 @@ Depth model (established around 2000 by a space shuttle.)
 
 
 # 3D stereo reconstruction
+- Registration
+- Matching along epipolar lines.
+Pushbroom : hyperbolic paraboloïd (instead of epipolar lines) e.g cannot do registration.
+
+- Approximation of the RPC projection function by the first order Taylor approximation of $P: \R^{3}\rightarrow\R^{2}$
+```
+       | D(P(X0))  T | | X |
+P(X) = |             | |   |
+       | 0         1 | | 1 |
+```
+
+
+Fundamental matrix $F$ respects $x_{i}^T .F x_{i} = 0$ 
+
+``` 
+           | 0 0  0 |
+F = H'^T . | 0 0 -1 | H
+           | 0 1  0 |
+```
+
+
+Fundamental matrix has a special form
+
+``` 
+    | 0 0 a |
+F = | 0 0 b |
+    | c d e |
+```
